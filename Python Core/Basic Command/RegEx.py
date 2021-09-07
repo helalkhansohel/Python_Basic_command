@@ -7,22 +7,22 @@ def RegEx():
     import re
     # -------------Search---------------------------------------------------------
     # search	Returns a Match object if there is a match anywhere in the string
-    tx t ="The rain is Spain" x=re.s earch("^The.*spain$",txt)
+    txt ="The rain is Spain"
+    x=re.search("^The.*spain$",txt)
     print(x)  # t  ue
 
     # check that a specific word exists or not
-    x=re. s earch("Spain",txt)
+    x=re.search("Spain",txt)
     print(x)  # t  ue
 
-    x=re. s earch("India",txt)
+    x=re.search("India",txt)
     print(x)  # N  ne
 
     # Search for the first white-space character in the string:
     # You can use for other char too
     txt = "The rain in Spain"
     x = re.search("\s", txt)
-    print("The first white-space character is located in position:", x.s
-          art())  # T  e first white-space character is located in position: 3
+    print("The first white-space character is located in position:", x.sart())  # T  e first white-space character is located in position: 3
 
     # ------------------findall-----------------------------------
     # Return a list containing every occurrence of "ai":
