@@ -52,7 +52,7 @@ def IOName():
   Name=input("Your Name ?")
   print("Name: ",Name)
 
-
+  i, c = input().split()
 # -------------------Variabls-------------------------
 
 def Variables():

@@ -65,17 +65,24 @@ def FunctionCall():
 
 
 
-
-
-
 #----------------Array -----------
 def Array():
   cars = ["Ford", "Volvo", "BMW"]
   print(cars) 
-  #Note: check list 
+  #Note: check list
+
+
+#Funation TypeCast parameter:
+
+def  mutate_string(a,b,c):
+  return a+b+c
+def TypeCas():
+    s,i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
 
 #-------try expect finall/else
 def tryExcept():
+  x=""
   try:
    print(x)
   except:
