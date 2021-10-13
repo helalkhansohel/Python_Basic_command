@@ -132,6 +132,12 @@ def List_Tuple_Sets():
     thisset.update(["orange", "mango", "grapes"])
     print(thisset)  # {'mango', 'apple', 'orange', 'grapes', 'banana', 'cherry'}
 
+    list1, list2 = [123, 'xyz', 'zara', 'abc'], [456, 700, 200]
+    print( "Max value element : ", max(list1))
+
+    print("Max value element : ", max(list2))
+
+
 
 # ---------------------------Dictionaries------------------------------------
 def Dictionaries():
@@ -231,5 +237,7 @@ def Dictionaries():
     }
 
     print(myfamily)
+
+
 
 
